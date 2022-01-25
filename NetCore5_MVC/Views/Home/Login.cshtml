@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "登入";
+
+}
+
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/vee-validate@next"></script>
+
+<div class="app">
+    <h2>測試登入</h2>
+    <v-form v-slot="{ submitForm }" :validation-schema="schema" >
+        <form v-on:submit="submitForm($event)" method="post" action="@Url.Action("SignIn", "Home")">
+            <table>
+                <tr>
+                    <th>帳號</th>
+                    <td>
+                        <v-field name="username" as="input" v-model="username" type="text"></v-field>
+                        <error-message name="username"></error-message>
+                    </td>
+                </tr>
+                <tr>
+                    <th>密碼</th>
+                    <td>
+                        <v-field name="password" as="input" v-model="password" type="password" placeholder="" ></v-field>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="登入" class="graybtn" /> &nbsp;&nbsp;
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </v-form>
+</div>
+
+
+<script type="module">
+
+    Vue.createApp({
+        components: {
+            VForm: VeeValidate.Form,
+            VField: VeeValidate.Field,
+            ErrorMessage: VeeValidate.ErrorMessage,
+        },
+        data() {
+            const isRequired = (value) => {
+                if (value && value.trim()) {
+                    return true;
+                }
+
+                return '必填';
+            };
+
+            const schema = {
+                username(value) {
+                    return isRequired(value)
+                }
+            };
+
+            return {
+                username: "",
+                password: "",
+                schema
+            }
+        },
+        methods: {
+            submit(value, value2, value3) {
+                return value.submit();
+            },
+
+        }
+    })
+    .mount('.app')
+</script>

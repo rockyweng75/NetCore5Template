@@ -1,0 +1,353 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_MVC\\NetCore5_MVC.csproj": {}
+  },
+  "projects": {
+    "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\NetCore5_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\NetCore5_Data.csproj",
+        "projectName": "NetCore5_Data",
+        "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\NetCore5_Data.csproj",
+        "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj": {
+                "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj",
+        "projectName": "NetCore5_Domain",
+        "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj",
+        "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_MVC\\NetCore5_MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_MVC\\NetCore5_MVC.csproj",
+        "projectName": "NetCore5_MVC",
+        "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_MVC\\NetCore5_MVC.csproj",
+        "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj": {
+                "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj"
+              },
+              "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\NetCore5_Service.csproj": {
+                "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\NetCore5_Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\NetCore5_Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\NetCore5_Service.csproj",
+        "projectName": "NetCore5_Service",
+        "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\NetCore5_Service.csproj",
+        "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\NetCore5_Data.csproj": {
+                "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Data\\NetCore5_Data.csproj"
+              },
+              "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj": {
+                "projectPath": "D:\\project\\netCore5Sco-main\\netCore5Sco-main\\NetCore5_Domain\\NetCore5_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

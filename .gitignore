@@ -1,0 +1,14 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+/NetCore5Example/obj
+/NetCore5_Data/bin/Debug/net5.0
+/NetCore5_Domain/bin/Debug/net5.0
+/NetCore5_Domain/obj
+/NetCore5_Service/bin/Debug/net5.0
+/NetCore5_Service/obj
+/NetCore5_Web/obj
+/NetCore5_Web/bin/Debug/net5.0
+/.vs/
+/NetCore5_MVC/bin/Debug/net5.0
+/NetCore5_Data/obj
